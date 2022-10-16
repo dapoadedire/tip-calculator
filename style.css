@@ -1,0 +1,70 @@
+main{
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 500px;
+    padding: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+input{
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 400px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    padding: 1em;
+}
+
+button{
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1em;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0.8em;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+
+
+/* Style input placeholder */
+
+::-webkit-input-placeholder {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#result{
+    color: green;
+    margin: 1em auto;
+}
+
+#result p{
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#error{
+    color: red;
+    margin: 1em auto;
+}
